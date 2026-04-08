@@ -15,7 +15,8 @@ cd test_chibbis
 
 pip install -r requirements.txt
 
-4. **Запускаем скрипт:**
+4. **Запускаем скрипт( в терминале ):**
+
 python main.py
 
 **Что получим**
@@ -42,8 +43,6 @@ sqlite3 data.db "SELECT COUNT(*) FROM users;"   # сколько записей 
 
 sqlite3 data.db "SELECT * FROM users;"          # показать всех пользователей
 
-### Способ 2 — через DB Browser
+### Через DB Browser for SQLite (дибивер)
 
-Скачайте DB Browser for SQLite
-Откройте → Open Database → выберите data.db
-Вкладка Browse Data → выберите таблицу (users, posts, comments)
+Откройте data.db в дибивере   →   вкладка Browse Data   →   выбирайте таблицу users, posts или comments.
